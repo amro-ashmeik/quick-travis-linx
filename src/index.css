@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Noto Sans JP', sans-serif
+    monospace;
+}
+
+.label {
+  color: white !important;
+}
+
+#add-link {
+  margin-bottom: 10px;
+}
