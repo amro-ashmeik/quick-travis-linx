@@ -82,7 +82,8 @@ function App() {
   
   else {
 
-  return ( 
+  return (
+    <div>Hello World!</div>
     <div>
       <Authentication state={ {user, setUser} } />
     <Box margin={15} justifyContent="center" margin="20px !important">
