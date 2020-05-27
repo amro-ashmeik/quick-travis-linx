@@ -19,14 +19,13 @@ import { DndProvider } from 'react-dnd'
 import Backend from 'react-dnd-html5-backend'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCHyktJVGIzKbUvJTPGYfO2LOfuTtTYzDM",
-  authDomain: "linx-22a8d.firebaseapp.com",
-  databaseURL: "https://linx-22a8d.firebaseio.com",
-  projectId: "linx-22a8d",
-  storageBucket: "linx-22a8d.appspot.com",
-  messagingSenderId: "420143947697",
-  appId: "1:420143947697:web:0cd132179c292b91006790",
-  measurementId: "G-S641Y5RGW1"
+  apiKey: "AIzaSyBjF7egfjwtXjwKz3pFVeh6m4FNvV-GM9A",
+    authDomain: "quick-travis-linx.firebaseapp.com",
+    databaseURL: "https://quick-travis-linx.firebaseio.com",
+    projectId: "quick-travis-linx",
+    storageBucket: "quick-travis-linx.appspot.com",
+    messagingSenderId: "379086395207",
+    appId: "1:379086395207:web:21d48109fdebaaeb74de62"
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database().ref();
