@@ -28,10 +28,16 @@ const BackButton = ({ state }) => {
         canDrop: monitor.canDrop(),
       })
   })
+
+  console.log(state)
     
   return (
     <div ref={drop}>
+      <div data-testid="pathTestID">
+        {state.path}
+      </div>
       <Button
+        data-testid="clickBack"
         variant = "contained"
         display="inline"
         aria-label="add"

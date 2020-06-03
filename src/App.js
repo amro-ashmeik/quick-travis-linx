@@ -83,7 +83,6 @@ function App() {
 
   return (
     <div>
-    Hello World!
       <Authentication state={ {user, setUser} } />
     <Box margin={15} justifyContent="center" margin="20px !important">
       <Box textAlign="center" justifyContent="center" marginBottom="20px">
